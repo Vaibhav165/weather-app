@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    <div class = "container">
+        
+    <form method="get" action="" id="myForm">
+            <input type="text" id="cityName" name="cityName" autofocus placeholder="Search for a ciy">
+            <button type="Submit" class="btn"> <img src="https://img.icons8.com/material-outlined/20/000000/search--v2.png"/>  </button>
+    </form>
+            
+    <div class="temperature"> 
+        <h1 id="main" class="temp">  </h1>
+        <div class="maxmin"> 
+            <div class="up"> 
+                <h4 id="max" class=""> </h4>
+        <img class="arrow" src="https://img.icons8.com/material-outlined/24/000000/long-arrow-up.png"/>
+       
+    </div>
+    <div class="down">
+        <h4 id="min" class=""> </h4> 
+        <img class="arrow" src="https://img.icons8.com/material-outlined/24/000000/long-arrow-down.png"/>
+       
+    </div>
+        </div>
+    </div>
+    <h1 id="name"> </h1>
+    <div class="description"> 
+    <h2 class="desc">  </h2>
+</div>
+    
+        <div class="others">
+            <div class="hpf"> 
+            <img src="https://img.icons8.com/material-outlined/32/000000/humidity.png"/>
+            <h3 id="humid" class=""> <h4> Humidity </h4> </h3>
+        </div>
+        <div class="hpf"> 
+            <img src="https://img.icons8.com/material-outlined/32/000000/pressure.png"/>
+            <h3 id="pressure" class=""> <h4> Air pressure </h4> </h3>    
+        </div>
+        <div class="hpf">  
+            <img src="https://img.icons8.com/material-outlined/32/000000/wind.png"/>
+            <h3 id="wind" class=""> <h4> Wind speed </h4> </h3>
+        </div>
+        </div>
+        <script src="app.js" async defer></script>
+
+    </div>
+    </body>
+</html>
+<!-- <a href="https://icons8.com/icon/fyTkspMZICPZ/wind">Wind icon by Icons8</a>  -->

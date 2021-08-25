@@ -1,0 +1,89 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("after_noon.webp");
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin:1em;
+} 
+
+
+#cityName{
+    background-color: orange;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0.6em;
+    margin-right: 0;
+    border-color: transparent;
+}
+
+button{
+    border-radius: 10px;
+    padding: 0.6em;
+    border: 1px solid #fff;
+    background-color: #F55722;
+    margin-left: 0;
+    border-color: transparent;
+}
+
+.btn:hover{
+    border-color: blue;
+}
+
+.temperature{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.temp{
+   margin: .5em;
+}
+
+#main{
+    font-size: 3em;
+}
+
+.maxmin{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end ;
+    margin-bottom: 1em;
+}
+
+.up,.down{
+    display: flex;
+}
+
+.arrow{
+    height:20px;    
+    margin-top: 20px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    flex-direction: column;
+}
+
+.others{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hpf{
+    margin:1em;
+    border: 1px solid #fff;
+    padding: .3em;
+    width: 7em;
+
+}
+
+#humid,h4{
+    display: block;
+}
